@@ -40,8 +40,15 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+See: https://github.com/ember-cli/ember-cli-deploy#how-to-use
 
+    ember deploy --environment production
+    ember deploy:list --environment production
+
+Pick a version to activate
+
+    ember deploy:activate --revision chat-app:XXXXX --environment production
+  
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
